@@ -18,7 +18,7 @@ criteria = (cv2.TERM_CRITERIA_EPS +
 # 设置标签
 flags = cv2.KMEANS_RANDOM_CENTERS
 
-# K-Means聚类 聚集成4类
+# K-Means聚类 聚集成8类
 compactness, labels, centers = cv2.kmeans(data, 8, None, criteria, 10, flags)
 
 # 图像转换回uint8二维类型
